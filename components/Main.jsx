@@ -5,7 +5,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import MainImg from "../public/assets/profilePhoto.png";
-import Typical from "react-typical";
+import Typewriter from "typewriter-effect";
 
 const Main = () => {
   return (
@@ -27,17 +27,17 @@ const Main = () => {
               Hi, I'm <span className="text-purple-800">Tanuja</span>
             </h1>
             <h1 className="py-2 text-gray-700">
-              <Typical
-                steps={[
-                  "Full-Stack Developer",
-                  2000,
-                  "Web Developer",
-                  2000,
-                  "UI/UX Designer",
-                  2000,
-                ]}
-                wrapper="p"
-                loop={Infinity}
+              <Typewriter
+                options={{
+                  strings: [
+                    "Full-Stack Developer",
+                    "Web Developer",
+                    "UI/UX Designer",
+                  ],
+                  autoStart: true,
+                  loop: true,
+                  delay: 100,
+                }}
               />
             </h1>
             <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
