@@ -35,14 +35,14 @@ const resume = () => {
             >
               <FaGithub size={20} style={{ marginRight: "1rem" }} />
             </a>
-              <a
-                className="button"
-                href="../assets/pdfs/TP_Resume.pdf"
-                download="Tanuja-Pyneni_Reume.pdf"
-                title="Download"
-              >
-                <FaDownload size={20} style={{ marginRight: "1rem" }} />
-              </a>
+            <a
+              className="button"
+              href="../assets/pdfs/Tanuja Pyneni Resume.pdf"
+              download="Tanuja-Pyneni_Resume.pdf"
+              title="Download"
+            >
+              <FaDownload size={20} style={{ marginRight: "1rem" }} />
+            </a>
           </div>
         </div>
         {/*<div className='text-center py-4 text-xl font-bold uppercase tracking-wider'>
@@ -79,11 +79,12 @@ const resume = () => {
             <span className="px-2">|</span> Java
             <span className="px-2">|</span>C<span className="px-2">|</span>C++
             <span className="px-2">|</span>JavaScript
+            <span className="px-2">|</span>TypeScript
           </p>
           <p className="py-2">
             <span className="font-bold">Web and Database Technologies</span>
             <span className="px-2">|</span>HTML
-            <span className="px-2">|</span> CSS
+            <span className="px-2">|</span>CSS
             <span className="px-2">|</span>TailwindCSS
             <span className="px-2">|</span>Node.js
             <span className="px-2">|</span>React.js
@@ -129,35 +130,80 @@ const resume = () => {
 
         <div className="py-6">
           <p className="italic">
+            <span className="font-bold italic">Rymedi</span>
+            <span className="px-2">|</span>Greenville, SC
+          </p>
+          <p className="py-1 italic">
+            Full Stack Developer (09/2023 – Current)
+          </p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li className="text-justify">
+              Developed a healthcare data management application for diagnostic
+              testing, clinical research and employee health services that lets
+              organizations to completely streamline their patient intake,
+              increasing the testing capacity.
+            </li>
+            <li className="text-justify">
+              Spearheaded the development and integration of scalable REST APIs
+              within a dynamic healthcare startup, enhancing the web
+              application's functionality and facilitating seamless data
+              communication between various system components.
+            </li>
+            <li className="text-justify">
+              Designed and implemented a cutting-edge requisition PDF solution,
+              streamlining user information management processes and
+              significantly improving operational efficiency within the
+              organization.
+            </li>
+            <li className="text-justify">
+              Leveraged Twilio SendGrid to architect and deploy robust email
+              notification systems, ensuring timely communication and engagement
+              with platform users, while adhering to industry-standard security
+              and privacy protocols.
+            </li>
+            <li className="text-justify">
+              Collaborated closely with cross-functional teams to analyze
+              requirements, conceptualize solutions, and deliver high-quality
+              software products that met the unique needs of the healthcare
+              industry, contributing to the company's mission of revolutionizing
+              healthcare delivery through technology.
+            </li>
+          </ul>
+        </div>
+
+        <div className="py-6">
+          <p className="italic">
             <span className="font-bold italic">IntelOps</span>
             <span className="px-2">|</span>Addison, TX
           </p>
           <p className="py-1 italic">
-            Full Stack Developer (02/2023 – Current)
+            Full Stack Developer (02/2023 – 09/2023)
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li className="text-justify">
-              Developed and implemented a streamlined coding process, resulting
-              in a 20% increase in productivity and reduced debugging time by
-              30%.
+              Enhanced productivity by 20% and reduced debugging time by 30%
+              through streamlined coding processes.
             </li>
             <li className="text-justify">
-              Leading a team of 4 onsite and offshore (India) teams on Sass
-              based product website that simplifies cloud native technology.
+              Led a diverse team of 4 onsite and offshore developers in building
+              a SASS-based product website simplifying cloud native technology.
             </li>
             <li className="text-justify">
-              Created a UI template with dynamic react components for all
-              IntelOps UI designs reducing more than 50% of work when designing
-              new webpages in the future.
+              Developed dynamic React UI templates, cutting design work by over
+              50% for future webpages in the IntelOps project.
             </li>
             <li className="text-justify">
-              Working on creating A.I. based framework to democratize cloud
-              native open-source solutions for software companies.
+              Worked on an AI-driven framework democratizing cloud native
+              open-source solutions for software companies.
             </li>
             <li className="text-justify">
-              Researched and analyzed industry trends to generate compelling
-              blog content for multiple front-end technologies, resulting in a
-              30% increase in website traffic.
+              Authored informative blogs and documented UI templates, optimizing
+              development processes for the product website.
+            </li>
+            <li className="text-justify">
+              Researched industry trends, driving a 30% increase in website
+              traffic by creating compelling blog content on multiple front-end
+              technologies.
             </li>
           </ul>
         </div>
@@ -173,7 +219,7 @@ const resume = () => {
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li className="text-justify">
               Assisting the Professors of UNT in Human Computers and Interfaces
-              and Secure E-commerce and Fundamentals of Databases.
+              and Software Engineering and Fundamentals of Databases.
             </li>
             <li className="text-justify">
               Grading and Planning student assignments, exams, and quizzes in
@@ -197,19 +243,18 @@ const resume = () => {
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li className="text-justify">
-              Developed and implemented the product website using Angular,
-              resulting in a 50% increase in user engagement and a 25% decrease
-              in bounce rate.
+              Enhanced user engagement by 50% and decreased bounce rate by 25%
+              through Angular-based product website implementation.
             </li>
             <li className="text-justify">
-              Developed and implemented a user-friendly web and mobile
-              application for a construction company, streamlining inventory
-              management processes and reducing product purchase errors by 35%.
+              Built intuitive web and mobile apps for a construction firm,
+              optimizing inventory management and slashing purchase errors by
+              35%.
             </li>
             <li className="text-justify">
-              Collaborated with cross-functional teams to gather requirements,
-              design wireframes, and conduct usability testing, resulting in an
-              application with a 90% user satisfaction rate.
+              Led cross-functional teams in requirement gathering, wireframe
+              design, and usability testing, achieving a stellar 90% user
+              satisfaction rate for the application.
             </li>
           </ul>
         </div>
@@ -240,7 +285,7 @@ const resume = () => {
             <span className="font-bold">
               Vidya Jyothi Institute of Technology
             </span>
-            <span className="px-2">|</span>Denton, TX
+            <span className="px-2">|</span>Hyderabad, India
           </p>
           <p className="py-1 italic">
             <span className="font-normal">Bachelors in Computer Science</span>
