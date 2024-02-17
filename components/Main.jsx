@@ -41,10 +41,11 @@ const Main = () => {
               />
             </h1>
             <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
-              I design and build responsive front-end web applications
-              integrating back-end technologies. I am passionate above about
-              creating interactive applications and experience while learning
-              back-end technologies
+              I specialize in crafting responsive front-end web applications
+              seamlessly integrated with robust back-end technologies. My
+              passion lies in creating immersive, interactive user experiences
+              while continuously expanding my expertise in back-end
+              technologies.
             </p>
             <div className="flex items-center justify-between my-4 max-w-[280px] m-auto sm:w-[80%]">
               <a
